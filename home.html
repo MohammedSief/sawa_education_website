@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/font-awesome.min.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="../sawa-education/css/style.css">
+
+    <title>سوا - للتربيه الخاصه</title>
+
+</head>
+
+
+
+<body>
+
+    <main>
+        <div class="contact-nav navbar">
+            <div class="contacts ">
+                <ul class="d-flex justify-content-center me-5">
+                    <div class="contacts1 ">
+                        <img src="media/location.png" alt="عنوان">
+                        <a class="me-3" href="#">عمان - الرابيه - شارع ميسلون</a>
+                    </div>
+                    <div class="contacts2 me-5 ms-3">
+                        <img src="media/phone.png" alt="تليفون">
+                        <a class="me-3" href="#">التواصل: 0123456789 - 0123456789</a>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="d-xl-flex align-items-center justify-content-center me-5" id="log">
+                <div id="log1">
+                    <input type="text" placeholder=" &#xf2be;  اسم المستخدم" style="font-family: Cairo, FontAwesome"
+                        name="اسم المستخدم" id="username" class=" ms-2 border rounded-1" />
+                    <input type="password" placeholder=" &#xf023;  كلمة السر" style="font-family: Cairo, FontAwesome"
+                        name="كلمة السر" id="password" class=" ms-2 border rounded-1" />
+                </div>
+                <div id="log2" class="mt-2 mt-xl-0">
+                    <input type="button" class="btn btn-sm btn-warning ms-2 me-xl-3" value="تسجيل الدخول" id="login">
+                    <input type="button" class="btn btn-sm btn-invisible ms-2" style="color: orange;" value="انشاء حساب"
+                        id="register">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="logo-nav d-flex align-items-center position-relative">
+
+            <div class="dropdown col-md-1 me-3" id="list-menu2">
+                <button class="btn btn-green dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    القائمة
+                </button>
+                <ul class="dropdown-menu text-end" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item w-100" href="#">الرئيسيه</a></li>
+                    <li><a class="dropdown-item w-100" href="#">ماذا عنا</a></li>
+                    <li><a class="dropdown-item w-100" href="#">تواصل معنا</a></li>
+                    <li><a class="dropdown-item w-100" href="#">التربية الخاصه</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-2">
+                <a href="#">
+                    <img class="logo m-2 me-5 " src="media/sawa-logo.png" style="height: 50%; width: 50%;"
+                        alt="sawa-logo">
+                </a>
+            </div>
+
+            <div class="col-md-7">
+                <ul class="m-1" id="list-menu1">
+                    <a id="home" class="pb-1" href="#">الرئيسيه</a>
+                    <a id="about" class="me-4 pb-1" href="#" target="_blank">ماذا عنا</a>
+                    <a id="contacts" class="me-4 pb-1" href="#">تواصل معنا</a>
+                    <a id="service" class="me-4 pb-1" href="#">التربيه الخاصه</a>
+                </ul>
+            </div>
+
+            <div class="col-md-2 ">
+                <a href="#" class="d-flex align-items-center"><img id="user-account" src="media/user-account.png"
+                        alt="user-account"></a>
+            </div>
+
+
+        </div>
+    </main>
+
+
+
+    <section id="sawa-poster">
+
+        <div class="sawa-poster">
+
+            <div class="transbox position-relative">
+                <div class="sawa-title text-white ">
+                    <h1>اكاديمية سوا للتربيه الخاصه</h1>
+                    <h5>رعايه ذاتية أفضل لطفلك من خلالنا</h5>
+                </div>
+
+                <div id="search-sawa">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search"
+                            placeholder="&#xf002;   إبحث عن طبيب , كورسات , رعاية صحية" aria-label="Search"
+                            style="font-family: Cairo, FontAwesome" name="search">
+                        <button class="btn btn-primary border-0" type="submit" id="submit-button ">بحث</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="doctors">
+
+        <div class="dr-data">
+
+            <div class="dr-pic">
+                <img id="dr-pic" src="/media/dr-1.png" alt="Dr. Nehal">
+            </div>
+
+            <div class="dr-caption">
+                <h3> د/نيهال إبراهيم </h3>
+                <h4> أخصائي تربيه طفوله </h4>
+            </div>
+
+            <input type="button" class="btn btn-sm btn-info ms-2 me-xl-3" value=" تواصل الآن " id="contact-now">
+
+        </div>
+
+
+        <div class="d-flex justify-content-center align-items-center bg-dark">
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5"
+                        aria-label="Slide 6"></button>
+                </div>
+
+                <div class="carousel-inner bg-danger">
+                    <div class="carousel-item  active">
+                        <img src="../sawa/media/dr-1.png" class="pic bg-warning d-block w-50" alt="...">
+                        <div class="dr-caption">
+                            <h3> د/نيهال إبراهيم </h3>
+                            <h4> أخصائي تربيه طفوله </h4>
+                        </div>
+                        <input type="button" class="btn btn-sm btn-info ms-2 me-xl-3" value=" تواصل الآن "
+                            id="contact-now">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../sawa/media/dr-2.png" class="pic bg-warning d-block w-50" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../sawa/media/dr-3.png" class="pic bg-warning d-block w-50" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../sawa/media/dr-4.png" class="pic bg-warning d-block w-50" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../sawa/media/dr-5.png" class="pic bg-warning d-block w-50" alt="...">
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="../sawa/media/dr-6.png" class="pic bg-warning d-block w-50" alt="...">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+    </section>
+
+
+
+    <footer class="d-flex" id="sawa-footer">
+        <!-- <img src="media/Group 73.png" alt="footer" class="w-100"> -->
+
+        <div class="col-md-6 col-6 p-3">
+            <div class="row">
+                <div class="col-md-6">
+
+                    <h5 id="footer-title">
+                        الرئيسية
+                    </h5>
+
+                    <h5 id="footer-title">
+                        ماذا عنا
+                    </h5>
+
+                    <h5 id="footer-title">
+                        قدم شكوي
+                    </h5>
+
+                    <h5 id="footer-title">
+                        إعتماداتنا
+                    </h5>
+
+                </div>
+
+                <div class="col-md-6">
+                    <div class="row">
+                        <h5 id="footer-title">
+                            تواصل معنا
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="contacts2 p-0">
+                            <img src="media/phone.png" alt="تليفون">
+                            <i class="fa-solid fa-phone-flip"></i>
+                            <span class="me-1" id="wyt">0123456789</span>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="contacts2 p-0">
+                            <img src="media/phone.png" alt="تليفون">
+                            <span class="me-1" id="wyt">0123456789</span>
+                        </div>
+                    </div>
+
+                    <div class="row mt-3">
+                        <h5 id="footer-title">
+                            العنوان
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="contacts1 p-0">
+                            <img src="media/location.png" alt="عنوان">
+                            <span class="" href="#" id="wyt">عمان - الرابيه - شارع ميسلون</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 col-6 p-3">
+
+            <h3 id="footer-title">
+                اكاديمية سوا للتربيه الخاصه
+            </h3>
+
+            <div class="row" id="wyt"><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestias,
+                    repellendus. Cum
+                    dolorem reiciendis nesciunt quo perferendis ratione magnam laboriosam ducimus qui facere, eius
+                    doloribus. Corrupti.</span>
+                <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse atque in delectus ex molestiae est
+                    magnam mollitia ea adipisci hic cumque, officiis, a provident aspernatur.</span>
+            </div>
+            <div class="row mt-2">
+                <h3>
+                    <a href="#" id="media"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+                    <a href="#" id="media"><i class="fa fa-twitter me-2" aria-hidden="true"></i></a>
+                    <a href="#" id="media"><i class="fa fa-instagram me-2" aria-hidden="true"></i></a>
+                    <a href="#" id="media"><i class="fa fa-facebook me-2"></i></a>
+                </h3>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>

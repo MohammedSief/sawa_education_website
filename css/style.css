@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&display=swap');
+
+body {
+    font-family: 'Cairo';
+}
+
+.contact-nav {
+    background-color: #135C65 !important;
+}
+
+.contact-nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#user-account {
+    width: 60px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+}
+
+#username:focus,
+#password:focus {
+    border-color: none;
+    outline: 0;
+}
+
+.logo-nav {
+    background-color: #ffffff;
+}
+
+.logo-nav a {
+    text-decoration: none;
+    color: #135C65;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.logo-nav ul,
+.contact-nav ul {
+    padding: 0%;
+    margin: 0%;
+}
+
+#home:hover,
+#home:hover,
+#about:hover,
+#contacts:hover,
+#service:hover {
+    border-bottom: 3px solid orange;
+}
+
+.sawa-poster {
+    background-image: url(media/112.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+.transbox {
+    width: 100%;
+    height: 400px;
+    background-color: rgba(72, 125, 125, 0.4);
+}
+
+.sawa-title {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+}
+
+#search-sawa {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    width: 40%;
+}
+
+.btn-green {
+    background-color: #135C65;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.btn-green:hover {
+    color: orange;
+
+}
+
+.form-control {
+    border-radius: 0rem;
+    border-radius: 0px 30px 30px 0px;
+    /*
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    */
+    border-width: 0px;
+    background-color: rgba(17, 120, 199, 0.4);
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.form-control:focus {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #002429;
+    box-shadow: 0 0 0 0;
+}
+
+.btn-primary {
+    border-radius: 0rem;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: rgba(17, 120, 199, 0.4);
+    color: orange;
+    font-weight: bold;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    color: #135C65;
+    background-color: orange;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    color: white;
+    background-color: orange;
+}
+
+
+#media {
+    color: #135C65;
+}
+
+#media:hover {
+    color: orange;
+}
+
+#sawa-footer {
+    background-color: #A9AB7F;
+    background-image: url(media/footer-screen.png);
+
+}
+
+#footer-title {
+    padding: 0px;
+    color: #135C65;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+#wyt {
+    color: #ffffff;
+}
+
+#footer-icon {
+    color: #ffffff;
+    size: 20px ;
+}
+
+#carouselExampleIndicators {
+    width: 50%;
+    height: 50%;
+}
+
+.carousel-item {
+    height: 500px;
+ }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: gray;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 409px) {
+    #password {
+        margin-top: 3px;
+    }
+}
+
+@media screen and (max-width:970px) {
+    #log {
+        margin: 10px 0px 10px 0px
+    }
+}
+
+@media screen and (max-width:730px) {
+    #list-menu1 {
+        display: none;
+    }
+
+    #list-menu2 {
+        display: inline;
+    }
+}
+
+@media screen and (min-width:730px) {
+    #list-menu1 {
+        display: inline;
+    }
+
+    #list-menu2 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #user-account {
+        width: 50px;
+        height: 35px;
+        position: absolute;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #search-sawa {
+        width: 70%;
+    }
+}
